@@ -1,116 +1,24 @@
 # Ritmo Español
 
-Ritmo Español is a modern web platform designed to make learning Spanish engaging, immersive, and enjoyable through authentic content rather than traditional grammar-heavy lessons.
+Version 0.1 alpha of a daily Spanish learning magazine built with Next.js App Router, TypeScript, Tailwind CSS, shadcn-style UI primitives, Framer Motion, and local MDX content.
 
-The website combines language learning with culture, travel, literature, films, and storytelling to help learners experience Spanish as it is spoken and lived.
+## Run locally
 
----
+```bash
+npm install
+npm run dev
+```
 
-## Project Vision
+Open `http://localhost:3000`.
 
-Learning a language is more than memorizing vocabulary and grammar. Ritmo Español aims to create an environment where learners naturally improve their Spanish through meaningful and enjoyable content.
+## Structure
 
-The platform is inspired by magazines and digital publications that readers want to return to every week.
+- `src/app` contains the App Router pages.
+- `src/components` contains reusable layout, section, and UI components.
+- `src/content` contains local editorial content data and MDX-ready notes.
 
----
+## Alpha scope
 
-## Planned Features
+Included now: homepage, today’s comic feature, daily Spanish cards, recommendations, editorial sections, dark mode, responsive layout, SEO metadata, and top-level site routes.
 
-- 📚 Book reviews
-- 🎬 Spanish movie and series recommendations
-- ✈️ Travel Spanish
-- 🌎 Hispanic culture articles
-- 💬 Weekly expressions and vocabulary
-- 😂 Comic strips for language learning
-- 🎥 Video content and vlogs
-- 🎧 Listening practice
-- 📝 Grammar explained through real examples
-- 👥 Community for Spanish learners
-- 📖 Resource library
-
----
-
-## Weekly Content Schedule
-
-| Day | Content |
-|------|----------|
-| Monday | Comic Strip |
-| Tuesday | Movie Review |
-| Wednesday | Book Review |
-| Thursday | Culture |
-| Friday | Travel Spanish |
-| Saturday | Vlog |
-| Sunday | Weekly Expressions |
-
----
-
-## Technology Stack
-
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
-- MDX
-- Vercel (Deployment)
-
----
-
-## Current Status
-
-🚧 This project is currently under development.
-
-The focus is on building the core website structure, editorial layout, and responsive user experience.
-
----
-
-## Goals
-
-- Create an engaging Spanish learning experience
-- Encourage daily interaction with authentic content
-- Build a vibrant learner community
-- Provide practical Spanish for real-life situations
-- Make language learning enjoyable and sustainable
-
----
-
-## Learning Objectives
-
-This project is also part of my journey in learning modern web development and AI Product Management.
-
-Through Ritmo Español, I am gaining experience with:
-
-- Next.js
-- React
-- TypeScript
-- Responsive Web Design
-- Git & GitHub
-- Product Thinking
-- UI/UX Design
-- Content Strategy
-
----
-
-## Future Enhancements
-
-- User accounts
-- Personalized learning dashboard
-- Interactive quizzes
-- Progress tracking
-- AI-powered Spanish tutor
-- Newsletter
-- Podcast integration
-- Mobile application
-
----
-
-## Author
-
-**Amrita Patil**
-
-AI Product Management | Web Development | Spanish Language Education
-
----
-
-## License
-
-This project is currently intended for educational and portfolio purposes.
+Designed for later: AI features, subscriptions, community, gamification, and personalized learning paths.
