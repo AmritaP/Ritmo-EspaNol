@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BookMarked } from "lucide-react";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/layout/theme-toggle";
 
@@ -16,10 +16,14 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-border/70 bg-background/88 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3" aria-label="Ritmo Español home">
-          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-primary-foreground">
-            <BookMarked className="h-5 w-5" />
-          </span>
-          <span className="font-serif text-xl font-semibold">Ritmo Español</span>
+         <Image
+            src="/Ritmo-EspaNol/logo.png"
+            alt="Ritmo Español Logo"
+            width={48}
+            height={48}
+            className="rounded-full"
+/>
+        <span className="font-serif text-xl font-semibold">Ritmo Español</span>
         </Link>
         <nav className="hidden items-center gap-1 md:flex" aria-label="Primary navigation">
           {navItems.map(([label, href]) => (
