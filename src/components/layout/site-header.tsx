@@ -19,8 +19,8 @@ export function SiteHeader() {
          <Image
             src="/Ritmo-EspaNol/logo.png"
             alt="Ritmo Español Logo"
-            width={48}
-            height={48}
+            width={70}
+            height={70}
             className="rounded-full"
 />
         <span className="font-serif text-xl font-semibold">Ritmo Español</span>
